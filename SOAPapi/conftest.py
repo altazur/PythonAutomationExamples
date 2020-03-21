@@ -7,7 +7,7 @@ def get_calculator():
     yield calculator
 
 def pytest_addoption(parser):
-    parser.addoption('--SOAPver', default='1', help='SOAP version: 1 or 2')
+    parser.addoption('--SOAPver', default='1.1', help='SOAP version: 1 or 2')
 
 @pytest.fixture
 def soap_version(request):
