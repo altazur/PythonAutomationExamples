@@ -1,5 +1,5 @@
-bin/*
-lib/*
-__pycache__/*
+bin/
+lib/
+__pycache__/
 *.swp
 *.log
